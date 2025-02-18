@@ -390,8 +390,13 @@ Si hay muchas fees impagas, puede indicar que este método de pago no es tan ren
 
 ![image](https://github.com/user-attachments/assets/0eeac38e-f486-491f-967d-2225648bb66b)
 
+![image](https://github.com/user-attachments/assets/78e7ed53-ab96-472d-84f7-ce6562858742)
 
+![image](https://github.com/user-attachments/assets/24da9297-0069-400b-8b11-171f7e6074cf)
 
+![image](https://github.com/user-attachments/assets/63a619ac-788e-4019-b15e-43ed2c61ba41)
+
+![image](https://github.com/user-attachments/assets/2b49fe36-496e-42f9-94f2-21c7936979ff)
 
 
 ## Evolucion del numero de solicitudes por tipo de cohorte 
@@ -417,6 +422,31 @@ Si se aplicó un nuevo método de fees o estrategia de marketing en un mes espec
 
 
 # CLASIFICACION
+
+## Distribucion de cash request por estado 
+
+![image](https://github.com/user-attachments/assets/630b7af9-f30a-4c36-92d4-c41ff9371964)
+
+## Distribucion de fees por estado
+
+![image](https://github.com/user-attachments/assets/90fab636-4634-4a26-8eb9-ed9d20c003d1)
+
+## Rango de morosidad de los clientes
+
+![image](https://github.com/user-attachments/assets/a14110e8-e5a1-4c73-b623-350328e0efd1)
+
+## Distribucion de probabilidad de morosidad matriz de confusion de regresion logistica y arbol de decision
+
+![image](https://github.com/user-attachments/assets/ec82ed9a-6541-4452-8316-f6a8d5d87057)
+
+![image](https://github.com/user-attachments/assets/bf8d35a3-206a-4a64-a544-ef04f8904a9d)
+
+![image](https://github.com/user-attachments/assets/371fbdbe-3bc0-4318-a2df-37f24995e83f)
+
+![image](https://github.com/user-attachments/assets/b6433ad8-37dd-4383-a0df-0e8f298e3365)
+
+
+
 
 
 <!-- ## Información Adicional
