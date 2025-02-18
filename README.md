@@ -397,6 +397,7 @@ Si hay muchas fees impagas, puede indicar que este método de pago no es tan ren
 ![image](https://github.com/user-attachments/assets/63a619ac-788e-4019-b15e-43ed2c61ba41)
 
 ![image](https://github.com/user-attachments/assets/2b49fe36-496e-42f9-94f2-21c7936979ff)
+![image](https://github.com/user-attachments/assets/0528b551-cbda-4ee3-ac1f-0b9b0c949c7d)
 
 
 ## Evolucion del numero de solicitudes por tipo de cohorte 
