@@ -153,7 +153,7 @@ He calculado los ingresos generados por cohorte, mostrando el total de ingresos 
 ![image](https://github.com/user-attachments/assets/617be294-0189-437d-a65c-f42e3fea52c1)
 
 
-## Visualizaciones clave
+# Visualizaciones clave
 
 *Distribucion de estados de las solicitudes
 
@@ -183,34 +183,240 @@ Pendientes y otras: En menor proporción
 
 *Tasa de Rechazo No Despreciable: Un porcentaje significativo de solicitudes es rechazado, lo que podría analizarse en profundidad para entender los factores que contribuyen a ello.
 
-# Distribucion de Cash Request
+# Graficos importantes
+
+## Distribucion de Cash Request
 ![image](https://github.com/user-attachments/assets/04fad72c-3e5f-402e-9b07-9b769be03af1)
 
-# Distribucion de Fees
+## Distribucion de Fees
 ![image](https://github.com/user-attachments/assets/a9ce0299-609e-4a3a-a530-bf27390ec71d)
 
-# Registros de Cash request por dia
+## Registros de Cash request por dia
 
 ![image](https://github.com/user-attachments/assets/220b1de6-8f8c-468f-9085-2796061d975d)
 
 
-# Promedios
+## Promedios
 
 ![image](https://github.com/user-attachments/assets/3914c7a3-943c-4a18-8317-42f1e1373eb7)
 
-# Retrasos al devolver el prestamo
+## Retrasos al devolver el prestamo
 
 ![image](https://github.com/user-attachments/assets/aa2b9b88-f288-481d-806a-3e3a741ef766)
 
 
-# Evolucion de amount y fee
+## Evolucion de amount y fee
 
 ![image](https://github.com/user-attachments/assets/77303fa2-034b-4165-b340-7f98d5a3cd1f)
 
-# Grafico de dispersion del monto de transferencia 
+## Grafico de dispersion del monto de transferencia 
 
 ![image](https://github.com/user-attachments/assets/0ff9c2f7-a572-41f2-ae1c-3a72b577ac5f)
 
+## Matriz de correlacion de las variables
+
+![image](https://github.com/user-attachments/assets/2f3ef717-ae8c-417a-bbd3-90eda58cb518)
+
+Variables altamente correlacionadas con otras:
+['id_x', 'id_y', 'cash_request_id']
+
+## Matriz de correlacion de las variables categoricas
+
+![image](https://github.com/user-attachments/assets/e8f07ac4-8f74-4e62-b443-513d4fea0747)
+
+Variables altamente correlacionadas con otras:
+['id_x', 'id_y', 'cash_request_id', 'transfer_type_instant', 'transfer_type_regular']
+
+## Evolucion, tendencia y estacionalidad del monto solicitado
+
+![image](https://github.com/user-attachments/assets/8cf7e19c-a952-4d9e-9123-71e85d8529ab)
+
+## Evolucion de las solicitudes moderadas 
+
+![image](https://github.com/user-attachments/assets/148be8ad-8be5-4196-a1ae-d1fcc166cf03)
+
+## Evolucion de solicitudes creadas  vs moderadas 
+
+![image](https://github.com/user-attachments/assets/e30912f1-c091-4339-b686-ab403c76d400)
+
+## Numero de adelantos por mes y semana
+
+![image](https://github.com/user-attachments/assets/d292b117-db5e-4028-909b-ede62abfafe3)
+
+## Numero de adelantos devueltos correctamente por semana
+
+![image](https://github.com/user-attachments/assets/e8359417-8909-43ad-bfc9-e6f1d2a85afd)
+
+## Cantidad de adelantos por dia de la semana
+
+![image](https://github.com/user-attachments/assets/a192d4b0-21c6-4103-b8cf-8573f772458f)
+
+## Cantidad de adelantos por mes
+
+![image](https://github.com/user-attachments/assets/53657ed5-5854-4bcc-8442-9d59e57a4839)
+
+## Estacionalidad de adelantos: dia de la semana vs mes
+
+![image](https://github.com/user-attachments/assets/58de7d62-46a8-4f12-914e-4b41910eb005)
+
+## Patrones semanales de adelantos
+
+![image](https://github.com/user-attachments/assets/25805a4f-c4fc-4442-9131-2bd69dcf004d)
+
+## Patrones de adelantos a lo largo de los dias del mes
+
+![image](https://github.com/user-attachments/assets/31754308-d9b5-41ad-b7df-52fb5359e838)
+
+
+## Descomposicion de la Serie temporal semanal de adelantos 
+
+![image](https://github.com/user-attachments/assets/e5625f74-3c27-4dd2-8a41-b4aa815ab63f)
+
+
+## Evolucion de la cantidad de clientes 
+
+![image](https://github.com/user-attachments/assets/02a26f0d-87ea-45f0-8483-65de825d649a)
+
+## Evolucionde usuarios unicos creados por semana
+
+![image](https://github.com/user-attachments/assets/0fcf7c27-6ead-4c3d-852b-e907ef53ea79)
+
+## Tendencia de las horas a las que se solicita el dinero
+
+![image](https://github.com/user-attachments/assets/1b52df91-18a9-4cd1-b746-59c02a2c8e35)
+
+
+## Evolucion mensual de fees ratios
+
+![image](https://github.com/user-attachments/assets/ecb332eb-176d-4877-9d50-12b3e3b5d74a)
+
+*El fees ratio (ratio de fees) es una métrica que indica la proporción de ingresos por fees (tarifas cobradas) en relación con el monto total de adelantos de efectivo otorgados.
+
+*¿Qué mide?
+
+Qué porcentaje de los adelantos de efectivo proviene de las tarifas cobradas a los clientes.
+Si el fees ratio es alto, significa que el banco está obteniendo una parte significativa de sus ingresos de las tarifas.
+Si es bajo, podría indicar que:
+Se están cobrando menos fees en relación al dinero adelantado.
+O que la mayoría de los adelantos no generan fees (por descuentos, promociones, etc.).
+
+¿Por qué es importante?
+
+Evaluar la rentabilidad de los adelantos de efectivo.
+Analizar si la estrategia de cobro de fees está siendo efectiva.
+Comparar diferentes tipos de transferencias instant vs regular para ver cuál genera más ingresos.
+Identificar posibles ajustes en las políticas de fees si el ratio es muy bajo o inestable.
+
+## Evolucion menusal de adelantos vs fees
+
+![image](https://github.com/user-attachments/assets/62efffe3-4fa1-4933-babf-21da0022bcbd)
+
+## Evolucion menusal de fees por tipo
+
+![image](https://github.com/user-attachments/assets/a83681d4-d803-4215-90c7-8be6a887cb62)
+
+## Distribucion de fees de pagos instantaneos por charge moment 
+
+![image](https://github.com/user-attachments/assets/c2a50138-e3a6-4300-9587-368ef9ebab65)
+
+El gráfico representa la distribución de fees generados en pagos instantáneos según el momento en el que se cobra la tarifa.
+
+¿Qué conclusiones sacamos?
+
+Identificar el momento en el que más fees se generan:
+
+Si una porción es mucho más grande que las otras, significa que la mayoría de los fees de pagos instantáneos se cobran en ese momento. Esto puede ayudar a entender cuándo los clientes están dispuestos a pagar más fees. Evaluar la estrategia de cobro:
+
+Si un charge_moment genera muy pocos fees, podrías preguntarte si tiene sentido mantener esa estructura de cobro o si deberías incentivar otros momentos con mayores ingresos.
+
+## Proporcion de fees pagadas
+![image](https://github.com/user-attachments/assets/4448a63b-a0a4-43eb-9b12-aeafcec65c95)
+
+Conclusiones que sacamos:
+
+1. Comparar la efectividad de los momentos de cobro (charge_moment)
+
+Si en un charge_moment la mayoría de los fees se pagan, significa que ese es un momento efectivo para cobrar.
+Si en otro charge_moment hay muchas fees no pagadas, puede indicar que los clientes no suelen pagar en ese momento.
+
+2. Identificar problemas en el cobro de fees
+
+Si el porcentaje de fees no pagadas es alto en todos los charge_moment, puede haber un problema con la estrategia de cobro (quizás los clientes no pueden pagar en esos momentos o hay fallos en el sistema de cobro).
+Si solo un charge_moment tiene muchas fees impagas, podría ser un horario o método de cobro poco conveniente para los clientes.
+
+3. Analizar patrones de pago de los clientes
+
+Si las fees pagadas son mayores en ciertos momentos, podrías priorizar esos horarios para futuras estrategias de cobro.
+Si las fees impagas son muy altas en ciertos momentos, podrías evaluar alternativas (recordatorios, cambios en la estrategia de cobro, etc.).
+
+4. Evaluar la rentabilidad de los pagos instantáneos
+
+Si la mayoría de los fees se pagan, significa que los pagos instantáneos generan ingresos de manera estable.
+Si hay muchas fees impagas, puede indicar que este método de pago no es tan rentable como parece y necesita ajustes.
+
+
+
+# ANALISIS DE COHORTES
+
+## Tasa de retención de clientes por cohorte
+
+![image](https://github.com/user-attachments/assets/218b7af8-fa15-45f5-abcf-30e570e29249)
+
+## Tasa de abandono de clientes por cohorte
+
+![image](https://github.com/user-attachments/assets/dfda7d51-45a1-4bce-bf06-f269aaf8b771)
+
+## Tasa de retención de solicitudes por cohorte
+
+![image](https://github.com/user-attachments/assets/e706fc15-6040-4d7a-be03-4d921a68423d)
+
+## Tasa de abandono de solicitudes por cohorte
+
+![image](https://github.com/user-attachments/assets/0dc035f2-0af8-441f-aa99-fb65c34d0c8a)
+
+## Tasa de retención de tarifas por cohorte
+
+![image](https://github.com/user-attachments/assets/cc27b05a-782e-4a36-93e0-440e48b337e6)
+
+## Tasa de abandono de tarifas por cohorte
+
+![image](https://github.com/user-attachments/assets/04c5c03b-ccb7-423b-9483-a193a70079ce)
+
+## Cantidad de adelanto de efectivo por cohorte y mes
+
+![image](https://github.com/user-attachments/assets/39f76a03-9bed-4030-96e2-b909b19231ad)
+
+## Interpolacion
+
+![image](https://github.com/user-attachments/assets/0eeac38e-f486-491f-967d-2225648bb66b)
+
+
+
+
+
+## Evolucion del numero de solicitudes por tipo de cohorte 
+
+![image](https://github.com/user-attachments/assets/f46a7196-fa67-4cba-81e3-b07caad92d07)
+
+## Tasa de retencion de cohortes a lo largo del tiempo
+
+![image](https://github.com/user-attachments/assets/7e7d00bb-52bd-448d-8578-0e615c4845ad)
+
+## Valor de vida de cliente por cohortes a lo largo del tiempo
+
+![image](https://github.com/user-attachments/assets/12f7d6eb-f9f4-4388-8c0c-18868b385044)
+
+1. Cohortes con LTV más alto:
+Filas con colores más intensos. Estas cohortes son las más valiosas; podrías analizar: ¿Qué promociones o campañas atrajeron a esos clientes? ¿Qué diferencias hay con cohortes menos valiosas?
+
+2. Tendencias a lo largo del tiempo:
+Si los colores se vuelven más claros mes a mes, significa que: Los clientes tienden a generar menos ingresos con el tiempo. Si algunas cohortes mantienen o aumentan su LTV con el tiempo: Son clientes leales que siguen generando ingresos.
+
+3. Impacto de cambios en el negocio:
+Si se aplicó un nuevo método de fees o estrategia de marketing en un mes específico, puedes ver si las cohortes siguientes tienen un LTV más alto o bajo.
+
+
+# CLASIFICACION
 
 
 <!-- ## Información Adicional
